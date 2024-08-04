@@ -15,10 +15,10 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database.
      */
     public function run(): void
-    {
-        Author::factory(1000)->create();
-        Category::factory(3000)->create();
-        Book::factory(100000)->create();
+    { 
+        Author::factory(100)->create();
+        Category::factory(300)->create();
+        Book::factory(100)->create();
         // Rating::factory(500000)->create();
     }
 }
